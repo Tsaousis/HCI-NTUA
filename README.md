@@ -1,6 +1,6 @@
 # HCI-NTUA
 
-### Are you in a desperate search to find a mate for your pet Sugar Glider Squirrel,despite the time you have wasted you have not found yet?
+### Are you in a desperate search to find a mate for your pet Sugar Glider Squirrel, but despite the time you have wasted you have not found yet?
 
 ## The waiting is over!
 
