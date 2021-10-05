@@ -1,7 +1,8 @@
 # HCI-NTUA
 
-### Are you in a desperate search to find a mate for your pet Sugar Glider Squirrel,despite the time you have wasted you have not found yet.
-The waiting is over!
+### Are you in a desperate search to find a mate for your pet Sugar Glider Squirrel,despite the time you have wasted you have not found yet?
+
+## The waiting is over!
 
 Peetings is an Android mobile app developed by me for the lesson of Human Computer Interface of NTUA.
 It is centered around the mating of pets, mainly exotic ones.
