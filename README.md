@@ -1,6 +1,6 @@
 # HCI-NTUA
 
-### Are you in a desperate search to find a mate for your pet Sugar Glider Squirrel, but despite the time you have wasted you have not found yet?
+### Are you in a desperate search to find a mate for your pet Sugar Glider Squirrel, but despite the time you have wasted you have not found one yet?
 
 ## The waiting is over!
 
@@ -11,4 +11,4 @@ Additionally Pet owners from all around the world can have converstations over t
 
 In order to have a look for yourself you can download the demo apk from this repository.
 
-Due to it being public, there are deliberately files missing from this repo, if you want to get the rest of the files you can contact me on kostastsaousis99@gmail.com
+Due to it being public, there are deliberately files missing from this repository, if you want to get the rest of the files ore more in information abou this project you can contact me on kostastsaousis99@gmail.com
