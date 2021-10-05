@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MenuStyle" parent="Theme.AppCompat.Light"/>
+    <style name="searchTheme" parent="@android:style/Theme.Holo">
+        <item name="android:textColor">@color/hintcolor</item>
+        <item name="editTextColor">@color/hintcolor</item>
+        <item name="android:editTextColor">@color/hintcolor</item>
+        <item name="android:textColorHint">@color/hintcolor</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_search_color</item>
+    </style>
+</resources>

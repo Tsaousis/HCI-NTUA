@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityChatHome">
+
+    <include layout="@layout/tool_bar" />
+
+    <RelativeLayout
+        android:id="@+id/chat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/userwhite" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/profile_image"
+            android:layout_toRightOf="@id/profile_image"
+            android:text="Katherine"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/last_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/profile_image"
+            android:maxLines="1"
+            android:text="How are you doing?" />
+
+        <TextView
+            android:id="@+id/timeDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chat2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/chat1">
+
+        <ImageView
+            android:id="@+id/profile_image2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/userwhite" />
+
+        <TextView
+            android:id="@+id/username2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/profile_image2"
+            android:layout_toRightOf="@id/profile_image2"
+            android:text="Osmaire"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/last_msg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username2"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/profile_image2"
+            android:maxLines="1"
+            android:text="Whats Up?" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chat3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/chat2">
+
+        <ImageView
+            android:id="@+id/profile_image3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/userwhite" />
+
+        <TextView
+            android:id="@+id/username3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/profile_image3"
+            android:layout_toRightOf="@id/profile_image3"
+            android:text="Khurram"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/last_msg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username3"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/profile_image3"
+            android:maxLines="1"
+            android:text="Whats Up?" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chat4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/chat3">
+
+        <ImageView
+            android:id="@+id/profile_image4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/userwhite" />
+
+        <TextView
+            android:id="@+id/username4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/profile_image4"
+            android:layout_toRightOf="@id/profile_image4"
+            android:text="Shaun Mandeles"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/last_msg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username4"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/profile_image4"
+            android:maxLines="1"
+            android:text="It's hot in here and i am not having good time" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/chat5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/chat4">
+
+        <ImageView
+            android:id="@+id/profile_image5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/userwhite" />
+
+        <TextView
+            android:id="@+id/username5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/profile_image5"
+            android:layout_toRightOf="@id/profile_image5"
+            android:text="Jennifer Lopez"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/last_msg5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username5"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/profile_image5"
+            android:maxLines="1"
+            android:text="Everythign is good you tell." />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

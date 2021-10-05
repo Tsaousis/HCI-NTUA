@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.petdating">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PetDating">
+        <activity android:name=".ActivityChatHome"></activity>
+        <activity android:name=".Notifications" />
+        <activity android:name=".MyProfile" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditPets"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyPets"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MateHomePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityChat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityContact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdoptionFilter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdoptionAdd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdoptionHome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            tools:replace="android:value" />
+    </application>
+
+</manifest>
