@@ -11,4 +11,4 @@ Additionally Pet owners from all around the world can have converstations over t
 
 In order to have a look for yourself you can download the demo apk from this repository.
 
-Due to it being public, there are deliberately files missing from this repository, if you want to get the rest of the files or more information about this project you can contact me on kostastsaousis99@gmail.com
+Due to it being public, there are deliberately files missing from this repository, if you want to get the rest of the files or more information about this project you can contact me on kostastsaousis99@gmail.com 
