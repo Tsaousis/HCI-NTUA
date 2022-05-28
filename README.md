@@ -1,6 +1,6 @@
 # HCI-NTUA
 
-### Are you in a desperate search to find a mate for your pet rare Chinchilla pet, but despite the time and effort you have wasted you have not found one yet?
+### Are you in a desperate search to find a mate for your rare Chinchilla pet, but despite the time and effort you have wasted you have not found one yet?
 
 ## The waiting is over!
 
